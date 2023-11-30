@@ -45,7 +45,7 @@ Kate A. Duchowny: Institute for Social Research, University of Michigan Ann Arbo
 
 # References
 
-Health and Retirement Study, (Tracker and RAND) public use dataset and (BIOMARKER) sensitive dataset. Produced and distributed by the University of Michigan with funding from the National Institute on Aging (grant number NIA U01AG009740). Ann Arbor, MI, (2023).
+Health and Retirement Study, (Tracker and RAND) public use dataset and (Biomarker and Health Data) sensitive dataset. Produced and distributed by the University of Michigan with funding from the National Institute on Aging (grant number NIA U01AG009740). Ann Arbor, MI, (2023). URL https://hrs.isr.umich.edu/data-products
 
 R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
 
