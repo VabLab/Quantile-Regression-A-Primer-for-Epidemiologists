@@ -15,8 +15,7 @@ Quantifying how an exposure affects the entire outcome distribution is often imp
 - `Appendix.pdf`: A PDF copy of the appendix of the paper.
 - `Analysis.R`: R code used for the paper's empirical analysis.
 - `Graphics.R`: R code for creating graphics used throughout the paper.
-
-- `Cited Papers`: A folder containing PDF versions of some of the cited papers??** (ASK SOME PEOPLES)
+- `Cited Papers`: A folder containing PDF versions of most of the cited papers.
 
 Note that no datasets will be made available on this repository due to data usage restrictions. Data can be accessed through the Health and Retirement Study (HRS) public and sensitive survey files. 
 
