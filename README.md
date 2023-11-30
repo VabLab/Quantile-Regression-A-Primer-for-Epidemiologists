@@ -17,7 +17,7 @@ Quantifying how an exposure affects the entire outcome distribution is often imp
 - `Graphics.R`: R code for creating graphics used throughout the paper.
 - `Cited Papers`: A folder containing PDF versions of most of the cited papers.
 
-Note that no datasets will be made available on this repository due to data usage restrictions. Data can be accessed through the Health and Retirement Study (HRS) public and sensitive survey files. 
+Note that no datasets will be made available on this repository due to data usage restrictions. Data can be accessed through the Health and Retirement Study (HRS) public survey files. 
 
 
 # Contact Information
@@ -44,7 +44,7 @@ Kate A. Duchowny: Institute for Social Research, University of Michigan Ann Arbo
 
 # References
 
-Health and Retirement Study, (Tracker and RAND) public use dataset and (Biomarker and Health Data) sensitive dataset. Produced and distributed by the University of Michigan with funding from the National Institute on Aging (grant number NIA U01AG009740). Ann Arbor, MI, (2023). URL https://hrs.isr.umich.edu/data-products
+Health and Retirement Study, (Tracker and RAND) public use dataset. Produced and distributed by the University of Michigan with funding from the National Institute on Aging (grant number NIA U01AG009740). Ann Arbor, MI, (2023). URL https://hrs.isr.umich.edu/data-products
 
 R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
 
