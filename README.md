@@ -33,9 +33,13 @@ Department of Family and Community Medicine, University of California, San Franc
 # Affiliations
 
 Aayush Khadka, Jillian L. Hebert, and Anusha M. Vable: Department of Family and Community Medicine, University of California San Francisco. 
+
 Anush M. Vable: Philip R Lee Institute for Health Policy Studies, University of California San Francisco. 
+
 M. Maria Glymour: Department of Epidemiology, Boston University. 
+
 Fei Jiang and Amanda Irish: Department of Epidemiology and Biostatistics, University of California San Francisco. 
+
 Kate A. Duchowny: Institute for Social Research, University of Michigan Ann Arbor.
 
 
