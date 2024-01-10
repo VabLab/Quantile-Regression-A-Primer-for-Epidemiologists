@@ -10,7 +10,7 @@
 # Lines 23-37: Load and format data
 # Lines 38-82: Fit OLS models
 # Lines 83-136: Fit CQR models (1st-99th quantiles)
-# Lines 137-204: Fit OLS models (1st-99th quantiles)
+# Lines 137-204: Fit UQR models (1st-99th quantiles)
 # Lines 205-213: Combine all model results into one dataset
 
 #------------------------------------------------------------------------------
