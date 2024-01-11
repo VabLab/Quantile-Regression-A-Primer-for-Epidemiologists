@@ -1,6 +1,6 @@
 # Quantile-Regression-A-Primer-for-Epidemiologists
 #### By Aayush Khadka, Jillian L. Hebert, M. Maria Glymour, Fei Jiang, Amanda Irish, Kate A. Duchowny, Anusha M. Vable
-Code for the "Quantile regressions as a tool to evaluate how an exposure shifts and reshapes the outcome distribution: A primer for epidemiologists" publication. (Link to paper)
+Code for the "Quantile regressions as a tool to evaluate how an exposure shifts and reshapes the outcome distribution: A primer for epidemiologists" publication. ([Link to paper](https://www.medrxiv.org/content/medrxiv/early/2023/05/05/2023.05.02.23289415.full.pdf))
 
 
 # Abstract
