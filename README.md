@@ -1,6 +1,6 @@
 # Quantile-Regression-A-Primer-for-Epidemiologists
 #### By Aayush Khadka, Jillian L. Hebert, M. Maria Glymour, Fei Jiang, Amanda Irish, Kate A. Duchowny, Anusha M. Vable
-Code for the "Quantile regressions as a tool to evaluate how an exposure shifts and reshapes the outcome distribution: A primer for epidemiologists" publication.
+Code for the "Quantile regressions as a tool to evaluate how an exposure shifts and reshapes the outcome distribution: A primer for epidemiologists" publication. (Link to paper)
 
 
 # Abstract
@@ -11,11 +11,10 @@ Quantifying how an exposure affects the entire outcome distribution is often imp
 # Repository Content
 
 - `README.md`: This file with an explanation of this repository.
-- `Quantile regressions as a tool to evaluate how an exposure shifts and reshapes the outcome distribution: A primer for epidemiologists.pdf`: A PDF copy of the full paper.
-- `Appendix.pdf`: A PDF copy of the appendix of the paper.
-- `Analysis.R`: R code used for the paper's empirical analysis.
-- `Graphics.R`: R code for creating graphics used throughout the paper.
-- `Cited Papers`: A folder containing PDF versions of most of the cited papers.
+- `1. Pull SBP`: R code to pull the first SBP measure for each participant.
+- `2. Clean Covariates`: R code to clean model covaraites and merge to create final dataset for analysis.
+- `3. Analysis.R`: R code used for the paper's empirical analysis.
+- `4. Graphics.R`: R code for creating graphics used throughout the paper.
 
 Note that no datasets will be made available on this repository due to data usage restrictions. Data can be accessed through the Health and Retirement Study (HRS) public survey files. 
 
