@@ -15,6 +15,7 @@ Quantifying how an exposure affects the entire outcome distribution is often imp
 - `2. Clean Covariates`: R code to clean model covaraites and merge to create final dataset for analysis.
 - `3. Analysis.R`: R code used for the paper's empirical analysis.
 - `4. Graphics.R`: R code for creating graphics used throughout the paper.
+- `R Session Info.png`: R version and package information.
 
 Note that no datasets will be made available on this repository due to data usage restrictions. Data can be accessed through the Health and Retirement Study (HRS) public survey files. 
 
@@ -45,5 +46,5 @@ Kate A. Duchowny: Institute for Social Research, University of Michigan Ann Arbo
 
 Health and Retirement Study, (Tracker and RAND) public use dataset. Produced and distributed by the University of Michigan with funding from the National Institute on Aging (grant number NIA U01AG009740). Ann Arbor, MI, (2023). URL https://hrs.isr.umich.edu/data-products
 
-R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
+R Core Team (2022). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
 
