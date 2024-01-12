@@ -140,7 +140,7 @@ loc_scale_shift <- ggplot(aes(Outcome, color = Group, linetype = Group),
 
 #Final plot
 (location_shift | scale_shift) / 
-(loc_scale_shift + plot_spacer())
+  (loc_scale_shift + plot_spacer())
 
 ggarrange(location_shift, scale_shift, loc_scale_shift,
           nrow = 2, ncol = 2, align = "hv", common.legend = T,
@@ -231,9 +231,9 @@ ggplot(aes(rif, fill = quantile, pattern = factor(group)), data = rif_data) +
   scale_pattern_manual(values = c(Low = "stripe", High = "none"),
                        name = "RIF Value") +
   scale_fill_manual(values = c("red", "dark orange", "dark green",
-                                    "blue", "purple"),
-                                    labels = c("10th", "25th", "50th",
-                                               "75th", "90th"),
+                               "blue", "purple"),
+                    labels = c("10th", "25th", "50th",
+                               "75th", "90th"),
                     name = "Quantile") +
   xlab("RIF Value") +
   ylab("Count") +
@@ -264,7 +264,7 @@ ggplot(aes(rif, fill = quantile, pattern = factor(group)), data = rif_data) +
   scale_pattern_manual(values = c(Low = "stripe", High = "none"),
                        name = "RIF Value") +
   scale_fill_manual(values = c("dark orange", "dark green", "blue"),
-                                    labels = c("25th", "50th", "75th"),
+                    labels = c("25th", "50th", "75th"),
                     name = "Quantile") +
   xlab("RIF Value") +
   ylab("Count") +
@@ -273,7 +273,7 @@ ggplot(aes(rif, fill = quantile, pattern = factor(group)), data = rif_data) +
         text = element_text(size = 20)) + 
   guides(pattern = guide_legend(override.aes = list(fill = "white")),
          fill = guide_legend(override.aes = list(pattern = "none")))
-  
+
 
 #Panel version (Manuscript figure)
 rif25 <- rif_data %>%
@@ -419,8 +419,8 @@ ols_cqr <- results %>%
   dplyr::filter(regtype != "UQR")
 
 ols_cqr_p <- ggplot(data = ols_cqr %>% filter(regtype != "OLS"),
-       aes(x = Quantile, y = Estimate, group = regtype,
-           color = regtype, fill = regtype)) +
+                    aes(x = Quantile, y = Estimate, group = regtype,
+                        color = regtype, fill = regtype)) +
   geom_line(alpha = 50, size = 0.75) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), alpha = 0.27, color = NA) +
   geom_point(data = ols_cqr %>% filter(regtype == "OLS")) +
@@ -456,8 +456,8 @@ ols_uqr <- results %>%
   dplyr::filter(regtype != "CQR")
 
 ols_uqr_p <- ggplot(data = ols_uqr %>% filter(regtype != "OLS"),
-       aes(x = Quantile, y = Estimate, group = regtype,
-           color = regtype, fill = regtype)) +
+                    aes(x = Quantile, y = Estimate, group = regtype,
+                        color = regtype, fill = regtype)) +
   geom_line(alpha = 50, size = 0.75) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), alpha = 0.27, color = NA) +
   geom_point(data = ols_uqr %>% filter(regtype == "OLS")) +
@@ -642,7 +642,7 @@ den59 <- ggplot(aes(y = sbp, fill = educ, color = educ), data = d59) +
         axis.title = element_text(size = 11),
         plot.title = element_text(size = 14),
         legend.position = "none") 
-  
+
 
 den60 <- ggplot(aes(y = sbp, fill = educ, color = educ), data = d60) +
   geom_density(alpha = 0.3) +
@@ -737,15 +737,15 @@ means <- data.frame("group" = c("<60", "<60", "60-69", "60-69",
 
 q25s <- data.frame("group" = c("<60", "<60", "60-69", "60-69",
                                "70-79", "70-79", "80+", "80+"),
-                    "educ" = rep(c("Low", "High"), 4),
-                    "mean" = c(as.numeric(quantile(l59$sbp, probs = 0.25)),
-                               as.numeric(quantile(h59$sbp, probs = 0.25)),
-                               as.numeric(quantile(l60$sbp, probs = 0.25)),
-                               as.numeric(quantile(h60$sbp, probs = 0.25)),
-                               as.numeric(quantile(l70$sbp, probs = 0.25)),
-                               as.numeric(quantile(h70$sbp, probs = 0.25)),
-                               as.numeric(quantile(l80$sbp, probs = 0.25)),
-                               as.numeric(quantile(h80$sbp, probs = 0.25))))
+                   "educ" = rep(c("Low", "High"), 4),
+                   "mean" = c(as.numeric(quantile(l59$sbp, probs = 0.25)),
+                              as.numeric(quantile(h59$sbp, probs = 0.25)),
+                              as.numeric(quantile(l60$sbp, probs = 0.25)),
+                              as.numeric(quantile(h60$sbp, probs = 0.25)),
+                              as.numeric(quantile(l70$sbp, probs = 0.25)),
+                              as.numeric(quantile(h70$sbp, probs = 0.25)),
+                              as.numeric(quantile(l80$sbp, probs = 0.25)),
+                              as.numeric(quantile(h80$sbp, probs = 0.25))))
 
 #-------------------------------------------------------------------------------
 # q10-90 graphics
@@ -836,8 +836,8 @@ ols_uqr_min <- results_min %>%
   dplyr::filter(regtype != "CQR")
 
 ols_uqr_min_p <- ggplot(data = ols_uqr_min %>% filter(regtype != "OLS"),
-                    aes(x = Quantile, y = Estimate, group = regtype,
-                        color = regtype, fill = regtype)) +
+                        aes(x = Quantile, y = Estimate, group = regtype,
+                            color = regtype, fill = regtype)) +
   geom_line(alpha = 50, size = 0.75) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), alpha = 0.27, color = NA) +
   geom_point(data = ols_uqr_min %>% filter(regtype == "OLS")) +
