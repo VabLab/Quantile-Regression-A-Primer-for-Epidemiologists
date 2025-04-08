@@ -22,10 +22,11 @@ Note that no datasets will be made available on this repository due to data usag
 
 # Contact Information
 
-Aayush Khadka aayush.khadka@ucsf.edu  
+Jilly Hebert jilly.hebert@ucsf.edu  
 Department of Family and Community Medicine, University of California, San Francisco
 
-Jilly Hebert jilly.hebert@ucsf.edu  
+Sachi Taniguchi sachi.taniguchi@ucsf.edu
+VabLab Research Community Operations Manager
 Department of Family and Community Medicine, University of California, San Francisco
 
 
